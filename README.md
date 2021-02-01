@@ -1,10 +1,13 @@
 # Credit Risk Analysis Using Machine Learning
+
 ## Overview
-The purpose of this project is to implement and evaluate several machine learning models or algorithms to predict credit risk. The credit card credit dataset from LendingClub, a peer-to-peer lending services company will be used to implement the following:
-- Oversample the data using the Random Over Sampler and SMOTE algorithms
+
+The purpose of this project is to implement and evaluate several machine learning models or algorithms to predict which candidates have low and high  credit risk. Imbalanced-learn and scikit-learn libraries are used to build and evaluate models. Credit dataset for credit cards from LendingClub, a peer-to-peer lending services company is used to implement the following:
+
+- Logistic Regression using Naive Random Over Sampling and SMOTE algorithms
 - Undersample the data using the Cluster Centroids algorithm
-- Use a combinatorial approach of over- and under sampling using the SMOTEENN algorithm.
-- Compare Balanced Random Forest Classifier and Easy Ensemble Classifier machine learning models that reduce bias to predict credit risk
+- A combined sampling of over- and under sampling using the SMOTEENN algorithm.
+- Compare Balanced Random Forest Classifier and Easy Ensemble Classifier machine learning models to predict credit risk
 
 ## Results
 
